@@ -10,7 +10,48 @@ a {
     font-weight: 600;
 }
 
-.main-menu {
+header a:hover {
+    color: darkorange;
+}
+
+h1, h1 + p, h2, h3 {
+    text-align: center;
+}
+
+input {
+    font-style: italic;
+    font-weight: lighter;
+    opacity: 85%;
+}
+
+h1 + p, figure {
+    display: block;
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    text-align: center;
+}
+
+figure img {
+    width: 30%;
+}
+
+.main-block {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.buttons input {
+    font-style: normal;
+}
+
+.main-menu, footer, legend {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu li {
     list-style-type: none;
 }
 
@@ -21,18 +62,7 @@ a {
     background-color: #eaeaea;
 }
 
-.product{
-
-}
-
-.description1{
-    color: #707070;
-    font-size: 14px;
-    font-style: italic;
-    line-height: 16px;
-}
-
-.description2{
+.description-long{
     color: #484343;
     font-size: 16px;
     font-weight: 400;
@@ -40,10 +70,34 @@ a {
     text-align: left;
 }
 
+.catalog {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+.catalog a {
+    text-align: center;
+}
+
 .list-description {
     list-style-type: lower-greek;
 }
 
-.end-word{
+.ulightbox {
+    outline: 3px solid lightslategrey;
+    width: 45%;
+}
 
+.ulightbox:hover {
+    outline: none;
+}
+
+.form-control {
+    width: 15em;
+}
+
+#message-text {
+    height: 10em;
+    width: 30em;
 }
