@@ -10,6 +10,11 @@ a {
     font-weight: 600;
 }
 
+
+header a {
+    align-self: start;
+}
+
 header a:hover {
     color: darkorange;
 }
@@ -35,6 +40,13 @@ h1 + p, figure {
 
 figure img {
     width: 30%;
+}
+
+
+
+.logo {
+    width: 10%;
+    align-self: start;
 }
 
 .main-block {
