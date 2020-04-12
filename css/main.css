@@ -10,6 +10,10 @@ a {
     font-weight: 600;
 }
 
+header {
+    background: url("../img/logo.png") no-repeat top left 7%;
+    background-size: 5%;
+}
 
 header a {
     align-self: start;
@@ -27,6 +31,7 @@ input {
     font-style: italic;
     font-weight: lighter;
     opacity: 85%;
+    text-transform: capitalize;
 }
 
 h1 + p, figure {
@@ -42,7 +47,31 @@ figure img {
     width: 30%;
 }
 
+textarea {
+    resize: none;
+    text-transform: capitalize;
+}
 
+table {
+    position: center;
+}
+
+td {
+    border: 1.5px solid lightslategrey;
+    padding: 5px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+
+.table-description td {
+    font-weight: 600;
+    text-align: center;
+    border: 3px solid;
+}
 
 .logo {
     width: 10%;
@@ -82,6 +111,11 @@ figure img {
     text-align: left;
 }
 
+.description-short:first-letter, .description-long:first-letter {
+    font-family: "Droid Sans", serif;
+    font-size: 28px;
+}
+
 .catalog {
     display: flex;
     justify-content: space-between;
@@ -107,6 +141,23 @@ figure img {
 
 .form-control {
     width: 15em;
+}
+
+.table-product {
+    border: 1.5px solid lightslategrey;
+    border-collapse: collapse;
+}
+
+.row1 {
+    height: 45px;
+}
+
+#recipient-mail {
+    color: royalblue;
+}
+
+#recipient-mail:focus {
+    background-color: antiquewhite;
 }
 
 #message-text {
